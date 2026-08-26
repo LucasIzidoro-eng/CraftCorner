@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { getApiStatus } from '../services/systemService'
+import { search } from '../services/searchService'
 
 const apiStatus = ref('verificando...')
 
