@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #ff0050;
+  --secondary-color: #00f2ea;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #e60045;
+  border-color: #e60045;
+}
+
+.auth-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.auth-header {
+  background: linear-gradient(135deg, #000 0%, #222 100%);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
